@@ -1,0 +1,3 @@
+This directory contains serveral notebooks -- each applying a different classification model to a common classification problem. Each model notebook uses the same dataset, exploration notebook, and preprocessing notebook.
+
+Start by running through `eda.ipynb` for exploratory data analysis, followed by `preprocessing.ipynb` to review and how data is prepared for analysis. Each model notebook runs the `preprocessing.ipynb` notebook prior executing its own code cells (`%run preprocessing.ipynb` is executed in the first code cell of each). Preprocessing code is explicitly included in a given model notebook.
